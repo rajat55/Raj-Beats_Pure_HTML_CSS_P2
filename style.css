@@ -1,0 +1,231 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300&display=swap");
+
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --red-Light : #8ee4af;
+    --green: #EDF5E1;
+    --blue: #66fcf1;
+    --bg-black: #272727;
+    --orange: #ff652f;
+    --greenNew: #14a76c;
+
+
+}
+
+nav li{
+    text-decoration: none;
+    color: var(--blue);
+    display: inline-block;
+    
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    
+
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-black);
+    border-bottom: .01px solid gray;
+    
+}
+nav li:hover{
+   border-bottom: 2px solid red;
+
+
+}
+nav li:active{
+    border-bottom: 2px solid red;
+
+
+}
+nav .nav-items {
+  
+    width: 50%;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.logo-text{
+  color: var(--orange);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6px 15px;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+.hero-section{
+    background-image: url(resources/heroimg\ \(1\).jpg);
+    height: 617px;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+    
+}
+.hero-section h4,pre{
+    color: rgb(211, 214, 219);
+    background-color: #1f283396;
+}
+
+.hero-section .logo-text h1{
+    color: red;
+    font-size:xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-section pre{
+    
+    width: 40%;
+}
+.music-section{
+
+    background-color: var(--bg-black);
+    display: flex ;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 700px;
+}
+
+.music-section p{
+    width: 70%;
+    color: var(--orange);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.music-section h1{
+    color: white;
+    background-color: var(--greenNew);
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.music-section a{
+    text-decoration: none;
+    color: white;
+    background-color: #14a76c;
+    padding: 4px;
+    width: 70px;
+    border-radius: 6px;
+}
+.res-img {
+    margin-top: -600px;
+    width: 100%;
+}
+.res-img img{
+   width: 100%;
+}
+.res-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.res-text p{
+    width: 70%;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+.video-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-black);
+    height: fit-content;
+}
+.video-section img{
+   
+    width: 50%;
+
+}
+.video-section a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: wheat;
+    background-color: var(--greenNew);
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+}
+.card-section{
+    display: flex;
+   
+   
+    display: inline-block;
+    width: 80%;
+    margin: 5px 10%;
+
+}
+.card-section img{
+
+width: 40%;
+
+}
+.text-content{
+    vertical-align: top;
+   
+    width: 40%;
+    display: inline-block;
+}
+ .hr-line{
+   width: 80%;
+   border-bottom: 1px solid blueviolet;
+   text-align: left;
+}
+
+.text-content button {
+    padding: 8px;
+    margin: 8px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    display: flex;
+    margin: 4px 15%;
+    background-color: blueviolet;
+    color: azure;
+}
+.f-ele .hr-line{
+    width: 50%;
+    border-color: #ff652f;
+    margin-bottom: 2px;
+}
+.f-ele li{
+    list-style: none;
+    text-decoration: none;
+    margin: 2px;
+    padding: 2px;
+}
+.footer-container{
+    background-color: blueviolet;
+}
+.Note{
+    margin: 0px;
+    margin-top: -5px;
+    background-color: yellowgreen;
+    color: #ff652f;
+}
+.f-ele{
+
+    
+    width: 22%;
+}
