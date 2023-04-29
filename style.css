@@ -221,11 +221,13 @@ footer{
 .Note{
     margin: 0px;
     margin-top: -5px;
-    background-color: yellowgreen;
-    color: #ff652f;
+    background-color: #FC2947;
+    color: #FFDEB9;
+    text-align: center;
 }
 .f-ele{
 
     
     width: 22%;
 }
+
